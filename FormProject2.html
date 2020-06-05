@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="UTF-8"/>
+        <style>
+            td{
+                color:blue;
+            }
+            #caption{
+                background-color:aquamarine;
+            }
+            th{
+                text-align: left;
+            }
+            #table{
+                background-color:bisque;
+            }
+        </style>
+    </header>
+    <body>
+        <table id="table" align="center" width="500">
+            <tr>
+                <td id="caption" colspan="2"><h1>ĐĂNG KÝ HỌC VIÊN</h1></td>
+            </tr>
+            <tr>
+                <td>Họ và tên</td>
+                <th><input type="text" name="yourname" size="15"></th>
+            </tr>
+            <tr>
+                <td>Ngày sinh</td>
+                <th><input type="text" name="youdbirthday" size="10"></th>
+            </tr>
+            <tr>
+                <td>Giới tính</td>
+                <th>
+                    <input type="radio" value="Nam" name="gioitinh" checked="checked"> Nam
+                    <input type="radio" value="Nữ" name="gioitinh"> Nữ
+                </th>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <th><textarea rows="5"></textarea></th>
+            </tr>
+            <tr>
+                <td>Lớp</td>
+                <th>
+                    <select>
+                        <option>-Chọn lớp-</option>
+                        <option>Lớp 1</option>
+                        <option>Lớp 2</option>
+                        <option>Lớp 3</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <th><input type="text" name="email" size="30"></th>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <th><input type="text" name="phonenumber" size="15"></th>
+            </tr>
+            <tr>
+                <td></td>
+                <th>
+                    <input type="submit" value="Đăng ký">
+                    <input type="reset" value="Nhập lại">
+                </th>
+            </tr>
+        </table>
+    </body>
+</html>
